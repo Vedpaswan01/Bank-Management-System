@@ -16,8 +16,8 @@ public class AccountantDaoImpl implements AccountantDao{
 		
 		Accountant accountant=null;
 		
-		if(userName.equals("Ram@777") && password.equals("123456")) {
-			accountant=new Accountant(12, "Ram", "Rao", userName, password);
+		if(userName.equals("ved@123") && password.equals("123456")) {
+			accountant=new Accountant(12, "vedprakash", "Paswan", userName, password);
 		}else {
 			throw new AccountantException("Username and password not valid");
 		}
