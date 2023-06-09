@@ -1,4 +1,4 @@
-# Online_Banking_System
+# Bank Management System
 
 
 
